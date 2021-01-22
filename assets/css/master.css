@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: #fff;
+}
+
+/*classi utility per background-color*/
+
+.bg-pink{
+  background-color: #e579e6;
+}
+
+.bg-yellow{
+  background-color: #e1d67a;
+}
+
+.bg-blue{
+  background-color: #0086ff;
+}
+
+.bg-lblue{
+background-color: #abcfe7;
+}
+
+
+.bg-purple{
+  background-color: #8801fe;
+}
+
+/*classi utility per margini*/
+
+.mt-1{
+  margin-top: 15px;
+}
+
+.mt-2{
+  margin-top: 6px;
+}
+
+.mlr{
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.mb{
+  margin-bottom: 50px;
+}
+
+.mb-2{
+  margin-bottom: 15px;
+}
+
+/*classi per assegnare altezze alle varie sezioni*/
+
+
+.last-section{
+  height: 35px;
+}
+
+/*classi utility per assegnare altezze*/
+
+.h50{
+  height: 50px;
+}
+
+.h250{
+  height: 250px;
+}
+
+.h230{
+  height: 230px;
+}
+
+/*classi utility per assegnare larghezze a colonne*/
+
+.wsmall{
+  width: 20%;
+}
+
+.wlarge{
+  width: 60%;
+}
+
+.col-100{
+  width: 100%;
+}
+
+/*altro*/
+
+.col{
+float: left;
+}
+
+.col-third-section.first-bottom, .col-third-section.second-bottom {
+  padding-right: 10px;
+}
+
+.col-third-section.first-bottom, .col-third-section.second-bottom, .col-third-section.third-bottom {
+  padding-top: 10px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+  height: 40px;
+}
+
+.nav{
+  display: inline-block;
+  font-size: 12px;
+}
+
+.cover{
+  background-image: url("../img/banner.jpg");
+  height: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 5, 0, 0.3);
+  background-blend-mode: overlay;
+}
+
+.white{
+  color: #fff;
+  padding-top: 230px;
+  padding-left: 40px;
+  width: 450px;
+  text-align: justify;
+}
