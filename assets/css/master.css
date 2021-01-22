@@ -8,6 +8,9 @@ body, html{
   background-color: #fff;
 }
 
+.text{
+  font-family: 'Roboto', sans-serif;
+}
 /*classi utility per background-color*/
 
 .bg-pink{
@@ -39,6 +42,10 @@ background-color: #abcfe7;
 
 .mt-2{
   margin-top: 6px;
+}
+
+.mt-3{
+  margin-top: 30px;
 }
 
 .mlr{
@@ -118,6 +125,7 @@ float: left;
 .nav{
   display: inline-block;
   font-size: 12px;
+  padding: 0 6px;
 }
 
 .cover{
@@ -127,6 +135,9 @@ float: left;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.overlay{
   background-color: rgba(0, 5, 0, 0.3);
   background-blend-mode: overlay;
 }
@@ -146,9 +157,14 @@ float: left;
   }
 
 
-.fs10{
+.fs-10{
   font-size: 10px;
 }
+
+.fs-14{
+  font-size: 14px;
+}
+
 
 .coffee{
   background-image: url(../img/banner-2.jpg);
@@ -158,6 +174,10 @@ float: left;
 
 .br-5{
   border-radius: 5px;
+}
+
+.br-10{
+  border-radius: 10px;
 }
 
 .bulb{
@@ -171,5 +191,13 @@ float: left;
 
 .text-footer{
 
+ text-align: center;
+}
+
+.t-grey{
+  color: #b2b2b2;
+}
+
+.ciao{
 
 }
