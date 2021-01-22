@@ -8,30 +8,36 @@ body, html{
   background-color: #fff;
 }
 
+/*selettori per testo*/
+
 .text{
   font-family: 'Roboto', sans-serif;
 }
-/*classi utility per background-color*/
 
-.bg-pink{
-  background-color: #e579e6;
+.t-grey{
+  color: #b2b2b2;
 }
 
-.bg-yellow{
-  background-color: #e1d67a;
+/*testo sulla cover*/
+
+.white{
+  color: #fff;
+  padding-top: 230px;
+  padding-left: 40px;
+  width: 450px;
+  text-align: justify;
 }
 
-.bg-blue{
-  background-color: #0086ff;
+/*Header*/
+
+.logo{
+  height: 40px;
 }
 
-.bg-lblue{
-background-color: #abcfe7;
-}
-
-
-.bg-purple{
-  background-color: #8801fe;
+.nav{
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 6px;
 }
 
 /*classi utility per margini*/
@@ -65,23 +71,10 @@ background-color: #abcfe7;
   margin-bottom: 6px;
 }
 
-
 /*classi utility per assegnare altezze*/
 
-.h50{
-  height: 50px;
-}
-
-.h250{
-  height: 250px;
-}
-
-.h230{
-  height: 230px;
-}
-
-.h130{
-  height: 130px;
+.h140{
+  height: 140px;
 }
 
 /*classi utility per assegnare larghezze a colonne*/
@@ -98,7 +91,17 @@ background-color: #abcfe7;
   width: 100%;
 }
 
-/*altro*/
+/* classi di utility per border-radius */
+
+.br-5{
+  border-radius: 5px;
+}
+
+.br-10{
+  border-radius: 10px;
+}
+
+/*selettori colonne*/
 
 .col{
 float: left;
@@ -112,21 +115,15 @@ float: left;
   padding-top: 10px;
 }
 
+/*Clearfix*/
+
 .row:after{
   content: "";
   display: table;
   clear: both;
 }
 
-.logo{
-  height: 40px;
-}
-
-.nav{
-  display: inline-block;
-  font-size: 12px;
-  padding: 0 6px;
-}
+/*selettori immagini di background e overlay*/
 
 .cover{
   background-image: url("../img/banner.jpg");
@@ -137,17 +134,16 @@ float: left;
   background-position: center;
 }
 
-.overlay{
+.overlay-1{
+  height: 360px;
   background-color: rgba(0, 5, 0, 0.3);
   background-blend-mode: overlay;
 }
 
-.white{
-  color: #fff;
-  padding-top: 230px;
-  padding-left: 40px;
-  width: 450px;
-  text-align: justify;
+.overlay-2{
+
+  background-color: rgba(0, 5, 0, 0.3);
+  background-blend-mode: overlay;
 }
 
 .plant{
@@ -156,6 +152,19 @@ float: left;
   background-position: center;
   }
 
+.coffee{
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bulb{
+  background-image: url(../img/img-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*classi di utility per font size*/
 
 .fs-10{
   font-size: 10px;
@@ -165,24 +174,7 @@ float: left;
   font-size: 14px;
 }
 
-
-.coffee{
-  background-image: url(../img/banner-2.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.br-5{
-  border-radius: 5px;
-}
-
-.br-10{
-  border-radius: 10px;
-}
-
-.bulb{
-  background-image: url(../img/img-3.jpg);
-}
+/*Footer*/
 
 #heart:after{
   content: '\2764';
@@ -190,14 +182,5 @@ float: left;
 }
 
 .text-footer{
-
  text-align: center;
-}
-
-.t-grey{
-  color: #b2b2b2;
-}
-
-.ciao{
-
 }
